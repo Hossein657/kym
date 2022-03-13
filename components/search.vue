@@ -21,6 +21,7 @@ form{
   width: 95%;
   margin: 0 auto;
   margin-top: 5vh;
+  
 }
 
 .form-input{
@@ -32,6 +33,7 @@ form{
   filter: drop-shadow(-4px 0 10px rgb(23, 23, 23,0.25));
   padding-left: 20px;
   color: #fff;
+  overflow: hidden;
 }
 .form-btn{
   background-color: #f2f2f2;
@@ -48,4 +50,17 @@ form{
 input:focus, button:focus{
   outline: none;
 }
+@media (min-width: 481px){
+  form{
+    max-width: 500px;
+  }
+}
+/* @media (min-width: 1250px){
+  form{
+    position: absolute;
+    top: 2vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+} */
 </style>

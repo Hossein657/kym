@@ -22,4 +22,16 @@ h1{
 .bulb{
   margin-left: auto;
 }
+@media (min-width: 481px){
+  h1{
+    font-size: 20px;
+  }
+  .logo{
+    width: 60px;
+  }
+  .bulb{
+    width: 40px;
+  }
+}
+
 </style>

@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="body">
     <navbar/>
     <search/>
     <box/>
@@ -11,9 +11,15 @@
 
 <style scoped>
 
-.container{
-  height: 80%;
+.body{
+  height: 90%;
   margin: 15px;
   font-family: 'Roboto', sans-serif;
 }
+@media (min-width: 768px){
+  .body{
+    margin: 30px;
+  }
+}
+
 </style>

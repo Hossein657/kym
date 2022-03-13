@@ -58,6 +58,7 @@ export default {
     padding: 20px;
     background-image: linear-gradient(to bottom, #fb531c, #f98c29);
     border-radius: 20px;
+    margin: 20px auto;
 }
 .info{
     display: flex;
@@ -79,5 +80,35 @@ export default {
     overflow: scroll;
     color: #fff;
     padding-right: 25px;
+}
+@media (min-width: 481px){
+  .container{
+    max-width: 1100px;
+    
+  }
+  .info{
+    
+    margin-bottom: 20px;
+    align-items: center;
+}
+.title{
+    font-size: 30px;
+}
+.artist{
+    font-size: 20px;
+}
+.cover{
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+.lyrics{
+    max-height: 50vh;
+    overflow: scroll;
+    padding-right: 25px;
+    font-size: 20px;
+}
+
 }
 </style>

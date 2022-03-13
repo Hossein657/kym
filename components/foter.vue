@@ -15,10 +15,7 @@ export default {
 </script>
 
 <style>
-.boobs{
-    bottom: 0;
-    margin: 0 auto;
-}
+
 ul{
     list-style: none;
     display: flex;
@@ -33,5 +30,10 @@ li{
 a{
     text-decoration: none;
     color: #343434
+}
+@media (min-width: 481px){
+  .boobs{
+      font-size: 18px;
+  }
 }
 </style>
